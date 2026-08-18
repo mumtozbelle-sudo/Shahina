@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "4-dars"
+		},
+		{
+			"path": "4-dars vazifa"
+		},
+		{
+			"path": "5-dars"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "portfolio"
+	}
+}
