@@ -1,72 +1,64 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Про семью</title>
+    <title>Про семью | Шахина</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header class="header">
+    <header>
         <div class="container">
-             <nav class="navbar">
-             <a class="h2" href="index.html">Shahina</a>
-            <ul class="nav_links">
-              <div class="menu">
-            <li><a  href="about.html" class="nav_link ">Про меня</a></li>
-            <li><a href="family.html" class="nav_link active">Про мою семью</a></li>
-            <li><a href="works.html" class="nav_link">Мои работы</a></li>
-          </ul>
-        </nav>
+            <nav class="navbar">
+                <a class="logo" href="index.html">Shahina</a>
+                <ul class="nav_links">
+                    <li><a href="about.html" class="nav_link">Про меня</a></li>
+                    <li><a href="family.html" class="nav_link active">Про мою семью</a></li>
+                    <li><a href="works.html" class="nav_link">Мои работы</a></li>
+                </ul>
+                <a href="works.html" class="btn">Перейти к проекту</a>
+            </nav>
         </div>
-        </div>
-        <div class="container2">
-          <div class="hero-wrapper">
-       <div class="info">
-             <h2 class="title">Моя мама</h2>
-            <br>
-        <p class="p-text">Моей маме 40 лет. Она учитель английского языка. Она любит  <br> свою работу и помогает  ученикам<br>изучать английский язык. Она<br>  также умеет готовить вкусные блюда, поэтому у нас всегда<br> дома уютно и приятно.</p>
-       </div>
-       
-         <img class="img3" src="teacher.png" alt="">
-        </div>
-          <div class="hero-wrapper">
-       <div class="info">
-             <h2 class="title">Мой папа</h2>
-            <br>
-        <p class="p-text">Моему папе 46 лет. Он работает доктором. Он любит свою <br> работу и помогает  пациентам выздровить.Он любит смотреть кино и сериалы. Папа очень ответственный,добрый и трудолюбивый человек.</p>
-       </div>
-       <img class="img4" src="doctor.png" alt="">
-         </div>
-             <div class="hero-wrapper">
-       <div class="info">
-             <h2 class="title">Мой брат</h2>
-            <br>
-        <p class="p-text">Моему брату 15 лет родился 2011 года 6 февраля. Он учится 289 школе в русском классе. Он интересуется футболом и любит играть в него с друзьями.</p>
-       </div>
-       <img class="img5" src="ball.png" alt="">
-         </div>
-        </div>
+
+        <section class="container family-section">
+            <div class="hero-wrapper animate-card">
+                <div class="info">
+                    <h2 class="title">Моя мама 👩‍🏫</h2>
+                    <p class="p-text">Моей маме 40 лет. Она учитель английского языка. Она очень любит свою работу, помогает ученикам учить язык и готовит самые вкусные блюда. Дома у нас всегда тепло и уютно!</p>
+                </div>
+                <img class="img-family" src="teacher.png" alt="Мама">
+            </div>
+
+            <div class="hero-wrapper animate-card">
+                <div class="info">
+                    <h2 class="title">Мой папа 👨‍⚕️</h2>
+                    <p class="p-text">Моему папе 46 лет, он работает врачом. Папа помогат людям выздроветь, а в свободное время любит смотреть фильмы. Он очень добрый, ответственный и трудолюбивый.</p>
+                </div>
+                <img class="img-family" src="doctor.png" alt="Папа">
+            </div>
+
+            <div class="hero-wrapper animate-card">
+                <div class="info">
+                    <h2 class="title">Мой брат ⚽️</h2>
+                    <p class="p-text">Моему брату 15 лет (родился 6 февраля 2011 года). Учится в 289-й школе. Главное его увлечение — футбол, он обожает играть с друзьями на свежем воздухе.</p>
+                </div>
+                <img class="img-family" src="ball.png" alt="Брат">
+            </div>
+        </section>
     </header>
+
     <footer class="footer">
-  <div class="footer-container">
-   
-    <div class="footer-logo">
-      Shahina
-    </div>
-      <a href="https://t.me/@shahisha_papinadocha" target="_blank" rel="noopener noreferrer" class="social-icon telegram" title="Telegram">
-        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-          <line x1="22" y1="2" x2="11" y2="13"></line>
-          <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
-        </svg>
-      </a>
-      <a href="tel:+998776643979" class="social-icon phone" title="Позвонить">
-        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-          <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
-        </svg>
-      </a>
-    </div>
-  </div>
-</footer>
+        <div class="footer-container">
+            <div class="footer-logo">Shahina</div>
+            <div class="footer-socials">
+                <a href="https://t.me/shahisha_papinadocha" target="_blank" rel="noopener noreferrer" class="social-icon telegram" title="Telegram">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+                </a>
+                <a href="tel:+998776643979" class="social-icon phone" title="Позвонить">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                </a>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>

@@ -1,70 +1,69 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Про меня</title>
+    <title>Про меня | Шахина</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-     <div class="container">
-             <nav class="navbar">
-             <a class="h2" href="index.html">Shahina</a>
-            <ul class="nav_links">
-              <div class="menu">
-            <li><a  href="about.html" class="nav_link active">Про меня</a></li>
-            <li><a href="family.html" class="nav_link">Про мою семью</a></li>
-            <li><a href="works.html" class="nav_link">Мои работы</a></li>
-          </ul>
-        </nav>
-         </div>
+    <header>
+        <div class="container">
+            <nav class="navbar">
+                <a class="logo" href="index.html">Shahina</a>
+                <ul class="nav_links">
+                    <li><a href="about.html" class="nav_link active">Про меня</a></li>
+                    <li><a href="family.html" class="nav_link">Про мою семью</a></li>
+                    <li><a href="works.html" class="nav_link">Мои работы</a></li>
+                </ul>
+                <a href="works.html" class="btn">Перейти к проекту</a>
+            </nav>
         </div>
-        <div class="about">
-     <img class="img2" src="img.png" alt="">
-     <p class="p">Моя фамилия Абдушукурова .Я родилась в 2014 году 12 июля.Я учусь в 289 школе и перехожу в 6 класс и увлекаюсь IT,созданием сайтов и развитием новых навыков.</p>
-  </div>
-  <div class="contact-card-container">
-  
-  <form class="contact-form">
-    <label>ФИО</label>
-    <input type="text" placeholder="Введите имя">
 
-    <label>Номер телефона</label>
-    <input type="tel" placeholder="+998(___) ___-__-__">
+        <section class="about-section container">
+            <div class="about-card">
+                <img class="img2" src="img.png" alt="Shahina">
+                <p class="about-p">
+                    Моя фамилия Абдушукурова. Я родилась 12 июля 2014 года. 
+                    Учусь в 289-й школе и перехожу в 6-й класс. Увлекаюсь IT, веб-разработкой и созданием стильных сайтов!
+                </p>
+            </div>
 
-    <label>Сообщение</label>
-    <textarea placeholder="Ваше сообщение..."></textarea>
+            <div class="contact-card-container">
+                <form class="contact-form">
+                    <h2>Связаться со мной ✉️</h2>
+                    <label>ФИО</label>
+                    <input type="text" placeholder="Введите ваше имя" required>
+                    
+                    <label>Номер телефона</label>
+                    <input type="tel" placeholder="+998 (__) ___-__-__" required>
 
-    <button type="submit">Отправить</button>
-  </form>
+                    <label>Сообщение</label>
+                    <textarea placeholder="Ваше сообщение..." required></textarea>
 
- 
-  <div class="contact-map">
-    <a href="https://maps.google.com" target="_blank" class="map-btn">Открыть на карте ↗</a>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.026938210352!2d30.3141!3d59.9386!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNTnCsDU2JzE5LjAiTiAzM8KwMTgnNTAuOCJF!5e0!3m2!1sru!2s!4v1600000000000!5m2!1sru!2s" allowfullscreen="" loading="lazy"></iframe>
-  </div>
-</div>
-  </header>
-        <footer class="footer">
-  <div class="footer-container">
-   
-    <div class="footer-logo">
-      Shahina
-    </div>
-      <a href="https://t.me/@shahisha_papinadocha" target="_blank" rel="noopener noreferrer" class="social-icon telegram" title="Telegram">
-        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-          <line x1="22" y1="2" x2="11" y2="13"></line>
-          <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
-        </svg>
-      </a>
-      <a href="tel:+998776643979" class="social-icon phone" title="Позвонить">
-        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-          <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
-        </svg>
-      </a>
-    </div>
-  </div>
-</footer>
+                    <button type="submit" class="btn form-btn">Отправить</button>
+                </form>
+
+                <div class="contact-map">
+                    <a href="https://maps.google.com" target="_blank" rel="noopener noreferrer" class="map-btn">Открыть на карте ↗️</a>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.026938210352!2d30.3141!3d59.9386!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNTnCsDU2JzE5LjAiTiAzM8KwMTgnNTAuOCJF!5e0!3m2!1sru!2s!4v1600000000000!5m2!1sru!2s" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </section>
+    </header>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-logo">Shahina</div>
+            <div class="footer-socials">
+                <a href="https://t.me/shahisha_papinadocha" target="_blank" rel="noopener noreferrer" class="social-icon telegram" title="Telegram">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+                </a>
+                <a href="tel:+998776643979" class="social-icon phone" title="Позвонить">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                </a>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
