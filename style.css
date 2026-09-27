@@ -1,17 +1,16 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&display=swap');
 
 :root {
   --bg-gradient: linear-gradient(135deg, #fff5f8 0%, #f7f0ff 50%, #fff0f5 100%);
   --card-bg: rgba(255, 255, 255, 0.85);
   --card-border: rgba(244, 114, 182, 0.2);
-  
+
   --primary-pink: #ec4899;
   --soft-pink: #f472b6;
   --accent-purple: #f0e1fe;
   --dark-text: #2d1b36;
   --muted-text: #6b5b73;
-  
+
   --gradient-btn: linear-gradient(135deg, #ff85c0 0%, #f472b6 100%);
   --gradient-btn-hover: linear-gradient(135deg, #f472b6 0%, #e879f9 100%);
   --text-gradient: linear-gradient(90deg, #ec4899, #a855f7);
@@ -92,7 +91,8 @@ header {
   transition: all 0.3s ease;
 }
 
-.nav_link:hover, .nav_link.active {
+.nav_link:hover,
+.nav_link.active {
   color: var(--primary-pink);
 }
 
@@ -108,7 +108,8 @@ header {
   transition: width 0.3s ease;
 }
 
-.nav_link:hover::after, .nav_link.active::after {
+.nav_link:hover::after,
+.nav_link.active::after {
   width: 100%;
 }
 
@@ -133,9 +134,20 @@ header {
   margin-bottom: 10px;
 }
 
-.pink-badge { background: #fce7f3; color: #db2777; }
-.purple-badge { background: #f3e8ff; color: #9333ea; }
-.blue-badge { background: #e0f2fe; color: #0284c7; }
+.pink-badge {
+  background: #fce7f3;
+  color: #db2777;
+}
+
+.purple-badge {
+  background: #f3e8ff;
+  color: #9333ea;
+}
+
+.blue-badge {
+  background: #e0f2fe;
+  color: #0284c7;
+}
 
 
 .btn {
@@ -200,8 +212,15 @@ header {
 }
 
 @keyframes float {
-  0%, 100% { transform: translateY(0); }
-  50% { transform: translateY(-10px); }
+
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-10px);
+  }
 }
 
 .title3 {
@@ -209,9 +228,9 @@ header {
   font-size: 26px;
   line-height: 1.5;
   margin-bottom: 20px;
-}der
+}
 
-.highlight {
+der .highlight {
   background: var(--text-gradient);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -233,7 +252,7 @@ header {
   text-align: center;
   font-size: 22px;
   margin-bottom: 20px;
-  color:palevioletred ;
+  color: palevioletred;
 }
 
 .facts-grid {
@@ -335,7 +354,8 @@ header {
   font-size: 14px;
 }
 
-.contact-form input, .contact-form textarea {
+.contact-form input,
+.contact-form textarea {
   width: 100%;
   padding: 12px;
   background: #fff;
@@ -347,7 +367,8 @@ header {
   transition: all 0.3s ease;
 }
 
-.contact-form input:focus, .contact-form textarea:focus {
+.contact-form input:focus,
+.contact-form textarea:focus {
   border-color: var(--soft-pink);
   box-shadow: 0 0 10px rgba(244, 114, 182, 0.2);
 }
@@ -401,7 +422,7 @@ header {
 }
 
 .title2 {
-  color:var(--soft-pink); 
+  color: var(--soft-pink);
   font-size: 34px;
   font-weight: 800;
 }
@@ -417,7 +438,7 @@ header {
   justify-content: space-between;
   gap: 25px;
   transition: all 0.3s ease;
-  box-shadow: 0 8px 25px rgba(0,0,0,0.03);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.03);
 }
 
 .hero-wrapper:hover {
@@ -444,7 +465,7 @@ header {
   border-radius: 20px;
   object-fit: cover;
   border: 3px solid #fff;
-  box-shadow: 0 6px 18px rgba(0,0,0,0.06);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
 }
 
 
@@ -493,7 +514,7 @@ header {
 
 
 .footer {
-  background:#c090ec ;
+  background: #c090ec;
   border-top: 1px solid var(--card-border);
   padding: 22px 0;
   margin-top: 50px;
@@ -512,6 +533,13 @@ header {
   font-size: 22px;
   font-weight: 800;
   color: white;
+
+}
+
+.footer-logo:hover {
+  content: "";
+  transform: translateY(-5px);
+  transition: 0.4s;
 }
 
 .footer-socials {
@@ -541,8 +569,25 @@ header {
 }
 
 @media (max-width: 850px) {
-  .navbar { flex-direction: column; gap: 12px; }
-  .hero-content, .about-card, .hero-wrapper { flex-direction: column; text-align: center; }
-  .contact-card-container { flex-direction: column; }
-  .img2, .img-family { width: 100%; height: auto; }
+  .navbar {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .hero-content,
+  .about-card,
+  .hero-wrapper {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .contact-card-container {
+    flex-direction: column;
+  }
+
+  .img2,
+  .img-family {
+    width: 100%;
+    height: auto;
+  }
 }
